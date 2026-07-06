@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <clipPath id="badge-clip">
+      <circle cx="200" cy="200" r="184"/>
+    </clipPath>
+  </defs>
+  <circle cx="200" cy="200" r="184" fill="#faf6ef" stroke="#1c1a17" stroke-width="4"/>
+  <g clip-path="url(#badge-clip)">
+
+  <!-- top spring/coil accents -->
+  <path d="M170,60 Q120,55 90,95" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <g stroke="#1c1a17" stroke-width="2">
+    <line x1="162" y1="61" x2="152" y2="72"/>
+    <line x1="150" y1="59" x2="140" y2="70"/>
+    <line x1="138" y1="59" x2="128" y2="70"/>
+    <line x1="126" y1="61" x2="116" y2="72"/>
+    <line x1="115" y1="66" x2="105" y2="77"/>
+    <line x1="105" y1="74" x2="96" y2="86"/>
+  </g>
+  <path d="M230,60 Q280,55 310,95" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <g stroke="#1c1a17" stroke-width="2">
+    <line x1="238" y1="61" x2="248" y2="72"/>
+    <line x1="250" y1="59" x2="260" y2="70"/>
+    <line x1="262" y1="59" x2="272" y2="70"/>
+    <line x1="274" y1="61" x2="284" y2="72"/>
+    <line x1="285" y1="66" x2="295" y2="77"/>
+    <line x1="295" y1="74" x2="304" y2="86"/>
+  </g>
+
+  <!-- center tower -->
+  <rect x="178" y="50" width="44" height="66" fill="#faf6ef" stroke="#1c1a17" stroke-width="3"/>
+  <g stroke="#1c1a17" stroke-width="2">
+    <line x1="178" y1="62" x2="222" y2="62"/>
+    <line x1="178" y1="74" x2="222" y2="74"/>
+    <line x1="178" y1="86" x2="222" y2="86"/>
+    <line x1="178" y1="98" x2="222" y2="98"/>
+    <line x1="178" y1="110" x2="222" y2="110"/>
+  </g>
+
+  <!-- gantry beam -->
+  <rect x="90" y="116" width="220" height="16" fill="#faf6ef" stroke="#1c1a17" stroke-width="3"/>
+
+  <!-- left support column -->
+  <rect x="88" y="132" width="34" height="130" fill="#faf6ef" stroke="#1c1a17" stroke-width="3"/>
+  <rect x="88" y="132" width="10" height="130" fill="#a9865c"/>
+  <g stroke="#1c1a17" stroke-width="2">
+    <line x1="102" y1="150" x2="122" y2="150"/>
+    <line x1="102" y1="162" x2="122" y2="162"/>
+    <line x1="102" y1="174" x2="122" y2="174"/>
+  </g>
+  <rect x="94" y="262" width="22" height="26" rx="8" fill="#faf6ef" stroke="#1c1a17" stroke-width="3"/>
+
+  <!-- tool head -->
+  <rect x="164" y="132" width="72" height="76" fill="#faf6ef" stroke="#1c1a17" stroke-width="3"/>
+  <rect x="164" y="132" width="16" height="76" fill="#d9702e"/>
+  <circle cx="190" cy="144" r="4" fill="#1c1a17"/>
+  <circle cx="200" cy="144" r="4" fill="#1c1a17"/>
+  <circle cx="210" cy="144" r="4" fill="#1c1a17"/>
+  <rect x="184" y="156" width="34" height="34" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <circle cx="200" cy="212" r="6" fill="#1c1a17"/>
+
+  <!-- laser beam -->
+  <line x1="200" y1="218" x2="200" y2="286" stroke="#d9702e" stroke-width="3" stroke-dasharray="6 6"/>
+
+  <!-- work platform -->
+  <polygon points="130,286 270,286 250,306 150,306" fill="#faf6ef" stroke="#1c1a17" stroke-width="3"/>
+  <polygon points="150,306 250,306 244,320 156,320" fill="#a9865c" stroke="#1c1a17" stroke-width="3"/>
+
+  <!-- right control panel -->
+  <rect x="278" y="132" width="66" height="130" fill="#faf6ef" stroke="#1c1a17" stroke-width="3"/>
+  <rect x="290" y="144" width="42" height="30" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <g fill="#1c1a17">
+    <rect x="290" y="186" width="10" height="10"/>
+    <rect x="305" y="186" width="10" height="10"/>
+    <rect x="320" y="186" width="10" height="10"/>
+    <rect x="290" y="200" width="10" height="10"/>
+    <rect x="305" y="200" width="10" height="10"/>
+    <rect x="320" y="200" width="10" height="10"/>
+  </g>
+  <circle cx="298" cy="230" r="7" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <circle cx="322" cy="230" r="7" fill="none" stroke="#1c1a17" stroke-width="3"/>
+  <line x1="292" y1="252" x2="302" y2="240" stroke="#1c1a17" stroke-width="3"/>
+
+  <!-- radiating output lines -->
+  <g stroke="#1c1a17" stroke-width="2">
+    <line x1="200" y1="320" x2="80" y2="352"/>
+    <line x1="200" y1="320" x2="112" y2="366"/>
+    <line x1="200" y1="320" x2="146" y2="376"/>
+    <line x1="200" y1="320" x2="182" y2="382"/>
+    <line x1="200" y1="320" x2="218" y2="382"/>
+    <line x1="200" y1="320" x2="254" y2="376"/>
+    <line x1="200" y1="320" x2="288" y2="366"/>
+    <line x1="200" y1="320" x2="320" y2="352"/>
+  </g>
+  <g fill="#faf6ef" stroke="#1c1a17" stroke-width="2">
+    <circle cx="80" cy="352" r="5"/>
+    <circle cx="112" cy="366" r="5"/>
+    <circle cx="146" cy="376" r="5"/>
+    <circle cx="182" cy="382" r="5"/>
+    <circle cx="218" cy="382" r="5"/>
+    <circle cx="254" cy="376" r="5"/>
+    <circle cx="288" cy="366" r="5"/>
+    <circle cx="320" cy="352" r="5"/>
+  </g>
+  </g>
+</svg>
