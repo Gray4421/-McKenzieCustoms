@@ -752,7 +752,7 @@ p {
 
   .about-hero img {
     order: -1;
-    height: 460px;
+    height: 460px !important;
   }
 }
 
