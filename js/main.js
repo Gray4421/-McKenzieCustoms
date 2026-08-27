@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `Project Type: ${project}\n\n` +
         `${message}`;
 
-      const mailtoLink = `mailto:Jwilliam6000@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      const mailtoLink = `mailto:jwilliam6000@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       window.location.href = mailtoLink;
     });
   }
